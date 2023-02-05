@@ -16,7 +16,7 @@
 # print("The converted integer value is : " + str(res))
 
 def binary_array_to_number(arr):
-    print(int("".join(str(x) for x in arr)))
     print(int("".join(str(x) for x in arr),2))
-    print(1011,2)
+ 
 binary_array_to_number([1,0,1,1])  
+
