@@ -1,6 +1,3 @@
-username = input("Enter username:")
-print("Username is: " + username)
-
 
 """
 Cinema age management system
@@ -13,8 +10,8 @@ if someone is under 15
 if over 18
         All available
 """
-
-
+age_input = int(input("How old are you please?"))
+print(f"Thank you, you are {age_input} years old")
 def which_films_are_suitable(user_age):
     if user_age <= 12:
         print("Thank you, you can watch all U, PG and 12 rated films")
@@ -25,7 +22,7 @@ def which_films_are_suitable(user_age):
         print("""Thank you, you can watch all films!!
               U, PG, 12, 15 and 18 rated films""")
         
-which_films_are_suitable()
+which_films_are_suitable(age_input)
  
  
 """
